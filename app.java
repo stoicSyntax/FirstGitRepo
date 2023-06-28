@@ -4,18 +4,24 @@ public class app{
 
 	public static void main(String[]args) {
 		
-		Scanner myvar=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		
 		System.out.print("Enter your name: ");
-		String name = myvar.nextLine();
+		String name = sc.nextLine();
 		
 		System.out.print("Enter your School: ");
-		String school = myvar.nextLine();
+		String school = sc.nextLine();
 		
 		System.out.print("Enter your age: ");
-		int age = myvar.nextInt();
+		int age = sc.nextInt();
+		
+		System.out.println("Enter your address: ");
+		String address = sc.nextLine();
+		
+		System.out.println("Enter your academics: ");
+		String academics = sc.nextLine();
 
        System.out.println("Hey "+name +"! you are "+age+" years old. "+ "you learn at "+school +".");
 		
-		myvar.close();}
+		sc.close();}
 }
