@@ -12,6 +12,8 @@ public class app{
 		System.out.print("Enter your age: ");
 		int age=sc.nextInt();
 		
+		System.out.println("Enter the address: ");
+		
 		System.out.println("Hey "+name +"! you are "+age+"years old");
 		
 		 
