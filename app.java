@@ -1,22 +1,21 @@
 
-//import java.util.Scanner;
+import java.util.Scanner;
 public class app{
 
 	public static void main(String[]args) {
 		
-		/*Scanner myvar=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		
 		System.out.print("Enter your name: ");
-		String name=myvar.nextLine();
+		String name=sc.nextLine();
 		
 		System.out.print("Enter your age: ");
-		int age=myvar.nextInt();
+		int age=sc.nextInt();
 		
-		System.out.println("Hey "+name +"! you are "+age+"years old");*/
+		System.out.println("Hey "+name +"! you are "+age+"years old");
 		
 		 
 		
-		
-	}
+		sc.close();}
 
 }
